@@ -2,12 +2,12 @@
   "devtools_port": 9090,
   "licenseKey": "request-a-key",
   "startup_app": {
-    "name": "OpenFin Template",
-    "description": "OpenFin Template",
-    "url": "https://hrsbf.csb.app/",
-    "uuid": "openfin-window-template",
-    "autoShow": true,
-    "applicationIcon": "https://hrsbf.csb.app/favicon.ico"
+    "name": "deep-linking-url",
+    "description": "pass any url to a fin[s] link to open in a new window",
+    "url": "https://2yz7x.csb.app/",
+    "uuid": "deep-linking-url",
+    "autoShow": false,
+    "applicationIcon": "https://2yz7x.csb.app/favicon.ico"
   },
   "runtime": {
     "version": "stable"
