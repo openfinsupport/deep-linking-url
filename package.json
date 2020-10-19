@@ -2,6 +2,7 @@
   "name": "deep-linking-url",
   "version": "1.0.0",
   "description": "pass any url to a fin[s] link to open in a new window",
+  "description": "pass any url to a fin[s] link to open in a new window",
   "main": "index.html",
   "scripts": {
     "start": "serve"
