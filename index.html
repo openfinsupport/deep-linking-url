@@ -18,17 +18,15 @@
     <p>
       <openfin-link
         show-in-fin="false"
-        href="fins://2yz7x.csb.app//app.window.fin.json"
+        href="fin://localhost:5000/config/app.window.fin.json"
         >Launch</openfin-link
       >
     </p>
     <p>
-      url:
-      <input id="url-param-input" type="text" />
-    </p>
-    <p>
-      <openfin-link id="launch-with-url" show-in-fin="false" href=""
-        >Launch with url</openfin-link
+      <openfin-link
+        id="openfin-launch-link"
+        href="fin://localhost:5000/config/app.window.fin.json?$$url=https://google.com"
+        >Launch w url</openfin-link
       >
     </p>
   </body>

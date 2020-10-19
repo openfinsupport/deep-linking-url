@@ -4,10 +4,10 @@
   "startup_app": {
     "name": "deep-linking-url",
     "description": "pass any url to a fin[s] link to open in a new window",
-    "url": "https://2yz7x.csb.app/",
+    "url": "http://localhost:5000/",
     "uuid": "deep-linking-url",
-    "autoShow": true,
-    "applicationIcon": "https://2yz7x.csb.app/favicon.ico"
+    "autoShow": false,
+    "applicationIcon": "http://localhost:5000/favicon.ico"
   },
   "runtime": {
     "version": "stable"
