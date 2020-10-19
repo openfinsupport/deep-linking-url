@@ -10,23 +10,25 @@
     <link rel="stylesheet" href="style/main.css" />
   </head>
   <body>
-    <h1>This is a basic example of an OpenFin app.</h1>
     <p>
       You are running OpenFin Runtime version:
       <span id="openfin-version"></span>
     </p>
+    <h1>Launch OpenFin</h1>
     <p>
       <openfin-link
         show-in-fin="false"
-        href="fins://./config/app.platform.fin.json"
-        >Launch OpenFin Platform Application</openfin-link
+        href="fins://2yz7x.csb.app//app.window.fin.json"
+        >Launch</openfin-link
       >
     </p>
     <p>
-      <openfin-link
-        show-in-fin="false"
-        href="fins://./config/app.window.fin.json"
-        >Launch OpenFin Windowed Application</openfin-link
+      url:
+      <input id="url-param-input" type="text" />
+    </p>
+    <p>
+      <openfin-link id="launch-with-url" show-in-fin="false" href=""
+        >Launch with url</openfin-link
       >
     </p>
   </body>

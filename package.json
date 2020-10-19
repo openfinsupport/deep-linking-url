@@ -1,7 +1,7 @@
 {
-  "name": "openfin-csb-template",
+  "name": "deep-linking-url",
   "version": "1.0.0",
-  "description": "An example of an OpenFin template",
+  "description": "pass any url to a fin[s] link to open in a new window",
   "main": "index.html",
   "scripts": {
     "start": "serve"
